@@ -1,0 +1,9 @@
+# Merge this mapping into the final Mihomo config (or your existing converter base).
+# This is a fragment, not a complete client configuration. Keep existing providers.
+# Copy kelee-ai.yaml to <Mihomo HomeDir>/ruleset/kelee-ai.yaml before enabling.
+rule-providers:
+  kelee-ai:
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./ruleset/kelee-ai.yaml
